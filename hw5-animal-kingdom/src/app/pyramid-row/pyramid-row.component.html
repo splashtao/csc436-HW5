@@ -1,0 +1,8 @@
+<div class = "animalRankRow ui small">
+   
+    <div *ngFor = "let a of animals" class = "animalContainer ui raised {{'rank'+a.pyramidLevel}}">
+          <img class="animalImages"  src = "{{a.imageURL}}"/>
+          <h4>{{a.name}}</h4>
+    </div>
+
+</div>

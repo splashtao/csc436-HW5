@@ -1,0 +1,11 @@
+
+
+<div>
+  <h2 style="text-align:center; margin-bottom: 36px; color:#32127A">
+    Animal Kingdom
+  </h2>
+</div>
+
+<div *ngFor = "let row of animalKingdom.pyramidRows">
+    <app-pyramid-row [animals] = "row.animals"></app-pyramid-row>
+</div>

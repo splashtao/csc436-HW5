@@ -1,0 +1,32 @@
+.animalImages{
+    width:166px;
+    height:148px;
+}
+
+.animalRankRow{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.animalContainer{
+    margin:16px;
+    padding:30px;
+}
+
+.rank1{
+    background:black;
+    color: red}
+.rank2{
+    background: darkslategrey;
+    color:black;}
+.rank3{
+    background:darkblue;
+    color:white}
+.rank4{
+    background:lightblue;
+    color:darkslategrey}
+.rank5{
+    background:greenyellow;
+    color:saddlebrown}
+
